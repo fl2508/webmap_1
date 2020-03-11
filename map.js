@@ -7,7 +7,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZmwyNTA4IiwiYSI6ImNrN21uZjJ0dTA3dzYzaG4ybDdpa
 let map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v10',
-    center: [-73.9465, 40.8116],
+    center: [-73.9465, 40.8076],
     zoom: 13
 })
 
