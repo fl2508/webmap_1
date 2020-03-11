@@ -10,3 +10,16 @@ let map = new mapboxgl.Map({
     center: [-73.96024, 40.80877],
     zoom: 1
 })
+
+let navigation = new mapboxgl.NavigationControl({
+    showCompass: false
+})
+
+map.addControl(navigation, 'top-left')
+
+let scale = new mapboxgl.ScaleControl({
+    maxWidth: 80,
+    unit: 'imperial'
+})
+
+map.addControl(scale, 'bottom-right')
