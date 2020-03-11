@@ -8,8 +8,7 @@ let map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v10',
     center: [-74.0060, 40.7128],
-    zoom: 10,
-    pitch: 20
+    zoom: 5
 })
 
 let navigation = new mapboxgl.NavigationControl({
@@ -32,8 +31,36 @@ let data = [
     },
     {
         location: [-73.946830,40.792790],
-        content: 'Community Voices Heard '
+        content: 'Community Voices Heard'
     },
+    {
+        location: [-73.937187,40.804932],
+        content: 'Day Care Council of New York, Inc.'
+    },
+    {
+        location: [-73.951363,40.793060],
+        content: 'El Museo del Barrio'
+    },
+    {
+        location: [-73.936760,40.795730],
+        content: 'LSA Family Health Service, Inc. '
+    },
+    {
+        location: [-73.945190,40.818850],
+        content: 'One Hundred Black Men, Inc. of New York'
+    },
+    {
+        location: [-73.943291,40.816010],
+        content: 'The New York Urban League'
+    },
+    {
+        location: [-73.944330,40.790010],
+        content: 'Union Settlement Association, Inc'
+    },
+    {
+        location: [-73.938880,40.804990],
+        content: 'Uptown Grand Central'
+    }
     ]
 
 data.forEach(function(d) {
